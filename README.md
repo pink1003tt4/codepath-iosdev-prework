@@ -2,7 +2,7 @@
 Description: A basic application that collect inputs from user and generate a basic introduction
 
 App Walk-though
-[x] file:///private/var/folders/k1/svz2_gdx6vd2d42xh_7r8sch0000gn/T/bd8d82428f484fc5e0e37d68241cb744/Kapture%202023-01-18%20at%2018.59.46.gif
+[x] https://imgur.com/a/Fb0skPX.gif
 
 Required Features
 
