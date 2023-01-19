@@ -2,7 +2,7 @@
 Description: A basic application that collect inputs from user and generate a basic introduction
 
 App Walk-though
-TODO:// Add the URL to your animated app walk-though gif in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif). LICEcap is a great tool for recording and you can simply upload the gif to GitHub and provide the path name in place of URL as shown below.
+[x] file:///private/var/folders/k1/svz2_gdx6vd2d42xh_7r8sch0000gn/T/bd8d82428f484fc5e0e37d68241cb744/Kapture%202023-01-18%20at%2018.59.46.gif
 
 Required Features
 
