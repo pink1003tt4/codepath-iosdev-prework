@@ -10,6 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    @IBOutlet weak var FactsTextField: UITextField!
+    
     @IBOutlet weak var firstnameTextField: UITextField!
     @IBOutlet weak var lastnameTextField: UITextField!
     @IBOutlet weak var schoolnameTextField: UITextField!
@@ -30,7 +32,7 @@ class ViewController: UIViewController {
             
             // Creating a variable of type string, that holds an introduction. The introduction interpolates the values from the text fields provided.
             // Currently we can only present the information in a print statement. However, this lets us verify that our app is printing out what is intended!
-            let introduction = "My name is \(firstnameTextField.text!) \(lastnameTextField.text!) and I attend \(schoolnameTextField.text!). I am currently in my \(year!) year and I own \(numbersofpetsLabel.text!) dogs. It is \(morepetsSwtich.isOn) that I want more pets."
+        let introduction = "My name is \(firstnameTextField.text!) \(lastnameTextField.text!) and I attend \(schoolnameTextField.text!). I am currently in my \(year!) year and I own \(numbersofpetsLabel.text!) dogs. It is \(morepetsSwtich.isOn) that I want more pets. A fact about me is that \(FactsTextField.text!)"
             
             
             // Creates the alert where we pass in our message, which our introduction.
@@ -44,7 +46,6 @@ class ViewController: UIViewController {
             
             present(alertController, animated: true, completion: nil)
         }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
